@@ -1,0 +1,46 @@
+.light {
+    background: #F8FAFC;
+    color: #0F172A;
+}
+
+.light main {
+    background: #FFFFFF;
+}
+
+.light select {
+    color: #64748B;
+}
+
+.light #password {
+    background: #E2E8F0;
+    color: #0F172A;
+    box-shadow: var(--shadow-sm);
+}
+
+.dark {
+    background: #0f172a;
+    color: #F1F5F9;
+}
+
+.dark main {
+    background: #1e293b;
+    color: #F8FAFC;
+    box-shadow: var(--shadow-md);
+}
+
+.dark select,
+.dark button {
+    background: #334155;
+    color: #F8FAFC;
+}
+
+.dark button:hover {
+    background: #475569;
+}
+
+.dark #password {
+    background: #334155;
+    color: #38BDF8;
+    font-weight: bold;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}

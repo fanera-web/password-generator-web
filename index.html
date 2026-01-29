@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+</head>
+<body class="light">
+  <main>
+    <h1>Password Generator</h1>
+    <label for="strength">Choose strength:</label>
+    <select id="strength">
+        <option value="simple">Simple (8)</option>
+        <option value="medium">Medium (12)</option>
+        <option value="hard">Hard (16)</option>
+    </select>
+    <div id="btnContainer">
+      <button id="generateBtn">Generate</button>
+      <button id="themeBtn">Dark</button>
+    </div>
+    <p id="password">Your password:</p>
+  </main>
+  <script src="generate.js"></script>
+</body>
+</html>
